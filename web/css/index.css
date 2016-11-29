@@ -1,0 +1,213 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/10/2016, 12:18:28 AM
+    Author     : dante_000
+*/
+
+body{
+    background: url(../imagenes/cu1.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contenedor{
+    width: 60%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(33,20,23,0.4);
+    border-radius: 5%;
+}
+
+.enlaces{
+    width: 50%;
+    max-width: 1000px;
+    margin: 1% auto;
+    overflow: hidden;
+    margin-left: 30%;
+}
+
+.bloqueuno{
+    width: 100%;
+    margin: 2% auto;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.bloquedos{
+    width: 60%;
+    margin: 2% auto;
+    text-align: center;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.bloquetres{
+    width: 50%;
+    margin: 2% auto;
+    text-align: center;
+    max-width: 1000px;
+    overflow: hidden;
+    float: left;
+}
+
+.bloquecuatro{
+    width: 50%;
+    margin: 2% auto;
+    text-align: center;
+    max-width: 1000px;
+    overflow: hidden;
+    float: left;
+}
+.labeltres{
+    text-align: center;
+    padding: 2%;
+    font-size: 20px;
+}
+.labelcuatro{
+    text-align: center;
+    padding: 2%;
+    font-size: 15px;
+}
+
+input{
+    font-size: 80%;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.imagen{
+    width: 60%;
+    max-width: 1000px;
+    height: 10%;
+}
+
+
+.enl{
+	background-color: rgba(33,20,23,0.4); 
+	color:#fff;
+	padding: 10px;
+        margin-left: 10%;
+	border-radius: 10px;
+	font-size: 15px;
+        text-decoration: none;
+        display: inline-block;
+        float: left;
+}
+
+.enl:hover{
+    background-color: rgba(33,20,23,0.8); 
+}
+
+
+
+@media screen and (max-width: 950px){
+    
+.contenedor{
+    width: 60%;
+    max-width: 1000px;
+    margin: 10% auto;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(33,20,23,0.4);
+    border-radius: 5%;
+}
+
+.bloquecuatro{
+    width: 50%;
+    margin: 2% auto;
+    text-align: center;
+    max-width: 1000px;
+    overflow: hidden;
+    float: left;
+}
+
+
+.labeltres{
+    text-align: center;
+    padding: 2%;
+    font-size: 15px;
+}
+
+.labelcuatro{
+    text-align: center;
+    padding: 2%;
+    font-size: 15px;
+}
+
+input{
+    font-size: 60%;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+
+.enl{
+	padding: 5px;
+        margin-left: 5%;
+	font-size: 15px;
+}
+
+}
+
+
+
+@media screen and (max-width: 500px){
+    
+.contenedor{
+    width: 60%;
+    max-width: 1000px;
+    margin: 20% auto;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(33,20,23,0.4);
+    border-radius: 5%;
+}
+
+.bloquecuatro{
+    width: 50%;
+    margin: 2% auto;
+    text-align: center;
+    max-width: 1000px;
+    overflow: hidden;
+    float: left;
+}
+
+
+.labeltres{
+    text-align: center;
+    padding: 2%;
+    font-size: 8px;
+}
+
+.labelcuatro{
+    text-align: center;
+    padding: 2%;
+    font-size: 8px;
+}
+
+input{
+    font-size: 60%;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+
+.enl{
+	padding: 5px;
+        margin-left: 5%;
+	font-size: 10px;
+}
+
+.enlaces{
+    margin-left: 20%;
+}
+
+}
+

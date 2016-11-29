@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/11/2016, 09:02:35 PM
+    Author     : dante_000
+*/
+
+body{
+    background: url(../imagenes/cu2.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.menu{
+    margin:auto;
+    width:300px;
+    font-size: 30px;
+}
+
+.rasgos{
+    margin-left: -300px;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+li {
+    float:left;
+}
+			
+li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin: 2% auto;
+}
+
+li a:hover {
+    background-color:#434343;
+}
+			
+li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+			
+li:hover > ul {
+    display:block;
+}
+			
+li ul li {
+    position:relative;
+}
+			
+li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+.frame{
+    margin: 5% auto;
+    margin-left: 200px;
+}
