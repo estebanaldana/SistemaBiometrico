@@ -67,14 +67,7 @@ public class varOjos extends HttpServlet {
             
             ojos.main();
             
-            String ojoAl = "Almendrados";
-            String ojoAs = "Asiaticos";
-            String ojoCai = "Caidos";  
-            String ojoEn = "Entornados";
-            String ojoHun = "Hundidos";
-            String ojoJu = "Juntos";
-            String ojoSal = "Saltones";
-            String ojoSep = "Separados";
+            String ojost = ojos.majClass;
 
             out.println("<!DOCTYPE html>");
             out.println("<html>");
@@ -92,48 +85,13 @@ public class varOjos extends HttpServlet {
             
             
             out.println("<div class = 'conjunto'>");
-            
-            out.println("<div class = 'bloque'>");
 
-            out.println("<div class='seccionojo'>");
-            if(ojos.majClass == ojoAl)
-            {
-                 out.println("<img class = 'ojos' src='ojos/ojosalmendradost.png'>");
-            }
-            else if(ojos.majClass == ojoAs) 
-            {
-                out.println("<img class = 'ojos' src='ojos/ojosasiaticost.png'>");
-            } 
-            else if(ojos.majClass == ojoCai)
-            {
-                out.println("<img class = 'ojos' src='ojos/ojoscaidost.png'>");
-            }
-            else if(ojos.majClass == ojoEn) 
-            {
-                out.println("<img class = 'ojos' src='ojos/ojosentornadost.png'>");
-            } 
-            else if(ojos.majClass == ojoHun)
-            {
-                out.println("<img class = 'ojos' src='ojos/ojoshundidost.png'>");
-            }
-            else if(ojos.majClass == ojoJu) 
-            {
-                out.println("<img class = 'ojos' src='ojos/ojosjuntost.png'>");
-            } 
-            else if(ojos.majClass == ojoSal)
-            {
-                out.println("<img class = 'ojos' src='ojos/ojossaltonest.png'>");
-            }
-            else if(ojos.majClass == ojoSep) 
-            {
-                out.println("<img class = 'ojos' src='ojos/ojosseparadost.png'>");
-            } 
+            out.println("<div class= 'seccionojo'>");
+           
+                 out.println("<img class = 'ojos' src='ojos/"+ojost+".png'>");
             
             out.println("</div>");
 
-            out.println("</div>");
-
-            //conjunto
             out.println("</div>");
  
             out.println("</body>");

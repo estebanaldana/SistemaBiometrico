@@ -8,12 +8,12 @@ import java.util.List;
 
 public class Pielknn {
      double[][] instanciasPiel = {
-        {0.50},
-        {1.50},
-        {3.50},
-        {5.50},
-        {7.30},
-        {9.50}
+        {0.50},//piel blanca
+        {1.50},//piel blanco Claro
+        {3.50},//piel oscura
+        {5.50},//piel morena
+        {7.30},//piel morena Oscura
+        {9.50} //piel negra
     };
      
     public double pl1;
@@ -34,12 +34,12 @@ public class Pielknn {
         List<resultados> resultadospiel= new ArrayList<resultados>();
         
    
-        piellista.add(new valores(instanciasPiel[0], "Piel Blanca"));
-        piellista.add(new valores(instanciasPiel[1], "Piel Blanco Claro"));
-        piellista.add(new valores(instanciasPiel[2], "Piel Oscura"));
-        piellista.add(new valores(instanciasPiel[3], "Piel Morena"));
-        piellista.add(new valores(instanciasPiel[4], "Piel Morena Oscura"));
-        piellista.add(new valores(instanciasPiel[5], "Piel Negra"));
+        piellista.add(new valores(instanciasPiel[0], "piel blanca"));
+        piellista.add(new valores(instanciasPiel[1], "piel blanco Claro"));
+        piellista.add(new valores(instanciasPiel[2], "piel oscura"));
+        piellista.add(new valores(instanciasPiel[3], "piel morena"));
+        piellista.add(new valores(instanciasPiel[4], "piel morena Oscura"));
+        piellista.add(new valores(instanciasPiel[5], "piel negra"));
         
         
         //entrada

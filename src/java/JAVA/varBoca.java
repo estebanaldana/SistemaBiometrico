@@ -89,17 +89,14 @@ public class varBoca extends HttpServlet {
             
             
             out.println("<div class = 'conjunto'>");
-
+           
             out.println("<div class = 'seccionboc'>");
 
                  out.println("<img class = 'bocas' src='bocas/labios frente/"+boc1+".png'>");
   
             out.println("</div>");
-
-            //conjunto
+            
             out.println("</div>");
-            
-            
            
             out.println("</body>");
             out.println("</html>");

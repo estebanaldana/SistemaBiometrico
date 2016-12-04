@@ -23,7 +23,7 @@ body{
 }
 
 .rasgos{
-    margin-left: -300px;
+    margin-left: -400px;
 }
 
 ul, ol {
@@ -35,18 +35,22 @@ li {
 }
 			
 li a {
-    background-color:#000;
+    background-color: rgb(23,61,134);
     color:#fff;
     text-decoration:none;
-    padding:10px 12px;
+    padding:10px;
     display:block;
-    border-radius: 20px;
-    margin-left: 15px;
     margin: 2% auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li .sub{
+    margin-left: 10%;
 }
 
 li a:hover {
-    background-color:#434343;
+    background-color: rgb(23,61,199);
 }
 			
 li ul {
@@ -71,4 +75,5 @@ li ul li ul {
 .frame{
     margin: 5% auto;
     margin-left: 200px;
+    float: left;
 }

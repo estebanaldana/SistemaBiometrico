@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/10/2016, 03:10:45 PM
+    Author     : dante_000
+*/
+
+.contenedor{
+    width: 70%;
+    max-width: 1000px;
+    margin: 2% auto;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(33,20,23,0.4);
+    border-radius: 5%;
+}
+
+.bloque{
+    width: 70%;
+    margin: 2% auto;
+    max-width: 1000px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.secciones{
+    width: 50%;
+    margin: 2% auto;
+    max-width: 1000px;
+    float: left;
+}
+
+.titulos{
+    text-align: center;
+    font-size: 30px;
+}
+
+.subtitulos{
+    text-align: center;
+    font-size: 20px;
+}
+
+input{
+    text-align: center;
+    border-radius: 20px;
+}
+
+.inputs{
+    font-size: 80%;
+}
+
+.tipos{
+    text-align: center;
+}
+
+.boton{
+    margin-left: 45%;
+}
+
+
+@media screen and (max-width: 500px){
+    
+.titulos{
+    text-align: center;
+    font-size: 10px;
+}
+
+.subtitulos{
+    text-align: center;
+    font-size: 5px;
+}
+
+
+input{
+    text-align: center;
+    font-size: 10%;
+}
+
+.inputs{
+    text-align: center;
+}
+
+.tipos{
+    text-align: center;
+    font-size: 10px;
+}
+    
+}
+
+
+
+@media screen and (max-width: 600px){
+    
+    .contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(33,20,23,0.4);
+    border-radius: 5%;
+}
+
+}

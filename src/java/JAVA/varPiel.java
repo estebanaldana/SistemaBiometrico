@@ -54,12 +54,7 @@ public class varPiel extends HttpServlet {
             piel.main();
            
             
-            String piel1 = "Piel Blanca";
-            String piel2 = "Piel Blanco Claro";
-            String piel3 = "Piel Oscura";
-            String piel4 = "Piel Morena";
-            String piel5 = "Piel Morena Oscura";
-            String piel6 = "Piel Negra";
+            String pielt = piel.majClass;
 
             
            
@@ -83,41 +78,12 @@ public class varPiel extends HttpServlet {
             
             out.println("<div class = 'conjunto'>");
             
-            out.println("<div class = 'bloque'>");
-            
-            
             out.println("<div class = 'seccionpiel'>");
-            
-            if(piel.majClass == piel1)
-            {
-            out.println("<img class = 'pieles' src='pieles/piel1.png'>");
-            }
-            if(piel.majClass == piel2)
-            {
-            out.println("<img class = 'pieles' src='pieles/piel2.png'>");
-            }
-            if(piel.majClass == piel3)
-            {
-            out.println("<img class = 'pieles' src='pieles/piel3.png'>");
-            }
-            if(piel.majClass == piel4)
-            {
-            out.println("<img class = 'pieles' src='pieles/piel4.png'>");
-            }
-            if(piel.majClass == piel5)
-            {
-            out.println("<img class = 'pieles' src='pieles/piel5.png'>");
-            }
-            if(piel.majClass == piel6)
-            {
-            out.println("<img class = 'pieles' src='pieles/piel6.png'>");
-            }
-            
-            out.println("</div>");
+
+            out.println("<img class = 'pieles' src='pieles/"+pielt+".png'>");
 
             out.println("</div>");
 
-            //conjunto
             out.println("</div>");
 
             out.println("</body>");

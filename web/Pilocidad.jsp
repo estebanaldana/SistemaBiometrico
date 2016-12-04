@@ -46,7 +46,7 @@
             
                
         </div>
-           <input class="entrar" type="submit" name="Entrar"  id="Entrar" value="Entrar"> 
+           <input class="entrar" type="submit" name="Entrar" value="Aceptar"> 
      
         </form>
     </body>

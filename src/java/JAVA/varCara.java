@@ -83,20 +83,13 @@ public class varCara extends HttpServlet {
             
             
             out.println("<div class = 'conjunto'>");
-            
-            out.println("<div class = 'bloque'>");
-            
-            
+
             out.println("<div class = 'seccioncar'>");
    
             out.println("<img class = 'caras' src='caras/"+car1+".png'>");
 
             out.println("</div>");
 
-            out.println("</div>");
-            
-
-            //conjunto
             out.println("</div>");
 
             out.println("</body>");

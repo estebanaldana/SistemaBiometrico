@@ -77,20 +77,13 @@ public class varOrejas extends HttpServlet {
            
             
             out.println("<div class = 'conjunto'>");
-            
-            out.println("<div class = 'bloque'>");
-            
-            
+
             out.println("<div class = 'seccionore'>");
             
                  out.println("<img class = 'orejas' src='orejas/"+orec1+".png'>");
             
             out.println("</div>");
-
             
-            out.println("</div>");
-          
-            //conjunto
             out.println("</div>");
             
             

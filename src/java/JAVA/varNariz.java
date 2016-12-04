@@ -93,15 +93,10 @@ public class varNariz extends HttpServlet {
 
             out.println("<div class = 'conjunto'>");
             
-            out.println("<div class = 'bloque'>");
-            
-            
             out.println("<div class = 'seccionnar'>");
 
                  out.println("<img class = 'narices' src='narices/superior/"+nac1+".png'>");
 
-            out.println("</div>");
-            
             out.println("</div>");
             
             out.println("</div>");

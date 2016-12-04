@@ -68,17 +68,9 @@ public class varCabello extends HttpServlet {
             
            
             
-            String cabe1 = "Cabello Crespo";
-            String cabe2 = "Cabello Liso";
-            String cabe3 = "Cabello Grueso y Recto";
-            String cabe4 = "Cabello Ondulado";
-            String cabe5 = "Cabello Grueso y Ondulado";
-            String cabe6 = "Cabello Grueso y Liso";
+            String cabet = cabello.majClass;
             
-            
-            
-           
-            
+  
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
@@ -97,45 +89,13 @@ public class varCabello extends HttpServlet {
             
             
             out.println("<div class = 'conjunto'>");
-            
-            out.println("<div class = 'bloque'>");
-            
-            
+
             out.println("<div class = 'seccioncab'>");
-            
-            if(cabello.majClass == cabe1)
-            {
-            out.println("<img class = 'cabellos' src='cabello/cabello1.png'>");
-            }
-            if(cabello.majClass == cabe2)
-            {
-            out.println("<img class = 'cabellos' src='cabello/cabello2.png'>");
-            }
-            if(cabello.majClass == cabe3)
-            {
-            out.println("<img class = 'cabellos' src='cabello/cabello3.png'>");
-            }
-            if(cabello.majClass == cabe4)
-            {
-            out.println("<img class = 'cabellos' src='cabello/cabello4.png'>");
-            }
-            if(cabello.majClass == cabe5)
-            {
-            out.println("<img class = 'cabellos' src='cabello/cabello5.png'>");
-            }
-            if(cabello.majClass == cabe6)
-            {
-            out.println("<img class = 'cabellos' src='cabello/cabello6.png'>");
-            }
+
+            out.println("<img class = 'cabellos' src='cabello/"+cabet+".png'>");
             
             out.println("</div>");
-            
 
-            
-            out.println("</div>");
-            
-
-            //conjunto
             out.println("</div>");
             
             
