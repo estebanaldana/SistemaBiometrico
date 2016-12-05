@@ -207,22 +207,8 @@ public class valores extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Ejemplo</title>");  
-            if(cart == "cara1"){
-            out.println("<link rel='stylesheet' href='css/cssrostros/rostro1.css'>");    
-            }
-            if(cart == "cara2"){
-            out.println("<link rel='stylesheet' href='css/cssrostros/rostro2.css'>");    
-            }
-            if(cart == "cara3"){
-            out.println("<link rel='stylesheet' href='css/cssrostros/rostro3.css'>");    
-            }
-            if(cart == "cara4"){
-            out.println("<link rel='stylesheet' href='css/cssrostros/rostro4.css'>");    
-            }
-            else{
+            out.println("<title>Servlet Ejemplo</title>");              
             out.println("<link rel='stylesheet' href='css/servlets.css'>"); 
-            }
             out.println("</head>");
             out.println("<body>");
             out.println("<div class = 'Datos'> ");
@@ -346,7 +332,7 @@ public class valores extends HttpServlet {
             out.println("<img class = 'cabellos' src='cabello/"+cabet+".png'>");
 
             out.println("</div>");
-
+            
             
             out.println("</body>");
             out.println("</html>");
