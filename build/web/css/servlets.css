@@ -7,17 +7,8 @@ and open the template in the editor.
     Created on : 5/11/2016, 05:43:28 AM
     Author     : dante_000
 */
-
-
-.Datos{
-    width: 40%;
-    height: auto;
-    max-width: 1000px;
-    margin: 40% auto;
-    margin-left: 10%; 
-    overflow: hidden;
-    text-align: left;
-    float: left;
+body{
+    background-color: white;
 }
 
 
@@ -25,7 +16,7 @@ and open the template in the editor.
     width: 35%;
     height: 35%;
     max-width: 1000px;
-    margin: 25% auto;
+    margin: 35% auto;
     margin-left: 10%;
     overflow: hidden;
     text-align: center;
@@ -38,7 +29,7 @@ and open the template in the editor.
     width: 73%;
     height: auto;
     max-width: 1000px;
-    margin: 6% auto;
+    margin: 14% auto;
     margin-left: 14%;
     overflow: hidden;
     text-align: center;
@@ -51,7 +42,7 @@ and open the template in the editor.
     width: 80%;
     height: auto;
     max-width: 1000px;
-    margin: 7.5% auto;
+    margin: 15% auto;
     margin-left: 10%;
     overflow: hidden;
     text-align: center;
@@ -160,10 +151,12 @@ and open the template in the editor.
     height: 20%;
     max-width: 1000px;
 }
-.cabellosM{
+.cabellosM {
     width: 50%;
-    height: 60%;
+    height: auto;
     max-width: 1000px;
+    margin: 1%;
+    margin-right: 30px;
 }
 
 .pieles{
@@ -172,6 +165,3 @@ and open the template in the editor.
     max-width: 1000px;
     border-radius: 35px;
 }
-
-
-

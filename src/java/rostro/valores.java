@@ -209,25 +209,132 @@ public class valores extends HttpServlet {
             out.println("<head>");
             out.println("<title>Servlet Ejemplo</title>");              
             out.println("<link rel='stylesheet' href='css/servlets.css'>"); 
+            out.println("<link rel='stylesheet' href='css/Datos.css'>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<div class = 'Datos'> ");
-            out.println("<h1> Tipo de Ojos: "  +ojos.majClass +"</h1>");
-            out.println("<h1> Tipo de Orejas: "  +orejas.majClass +"</h1>");
-            out.println("<h1> Tipo de Nariz: "  +nariz.majClass +"</h1>");
-            out.println("<h1> Tipo de Boca: " +boca.majClass +"</h1>"); 
-            out.println("<h1> Tipo de Cara: "  +cara.majClass +"</h1>");
-            out.println("<h1> Tipo de Cabello: "  +cabello.majClass +"</h1>");
-            out.println("<h1> Color de Piel: "  +piel.majClass +"</h1>");
-            out.println("</div>");
-            out.println("<div class = 'Datos'> ");
-            out.println("<h1>Datos Ojos: " + OformaD +" " +OformaI +" " +OinclD +" " +OinclI +" " +OcejaD +" " +OcejaI + "</h1>");
-            out.println("<h1>Datos Orejas: " + formaPA +" " +tubDarwin +" " +implobulo + "</h1>");
-            out.println("<h1>Datos Nariz: " + baseN +" " +dorsoN +" " +puntaN +" " +baseN +" " +oriNasales  + "</h1>");
-            out.println("<h1>Datos Boca: " +grosLab  +" " +ejeHor +" " +surNaso  +" " +formaCom  + "</h1>");
-            out.println("<h1>Datos Cara: " + contCara +" " +pil  + "</h1>");
-            out.println("<h1>Datos Cabello: " +formaCab  +" " +abun +" " +inser +" " +calvicie +" " +pigme + "</h1>");
-            out.println("<h1>Datos Piel: " +pigmenPiel  + "</h1>");
+            out.println("<img class = 'lineaojos' src='lineaima/lineader.png'>");
+            out.println("<img class = 'lineaorejas' src='lineaima/lineaizq.png'>");
+            out.println("<img class = 'lineanariz' src='lineaima/lineader.png'>");
+            out.println("<img class = 'lineaboca' src='lineaima/lineader.png'>");
+            out.println("<img class = 'lineacara' src='lineaima/lineaizq.png'>");
+            out.println("<img class = 'lineacabello' src='lineaima/lineader.png'>");
+            out.println("<img class = 'lineapiel' src='lineaima/lineaizq.png'>");
+            out.println("<h1 class = 'Datosojos'> Tipo de Ojos: "  +ojos.majClass +"</h1>");
+            out.println("<h1 class = 'Datosorejas'> Tipo de Orejas: "  +orejas.majClass +"</h1>");
+            out.println("<h1 class = 'Datosnariz'> Tipo de Nariz: "  +nariz.majClass +"</h1>");
+            out.println("<h1 class = 'Datosboca'> Tipo de Boca: " +boca.majClass +"</h1>"); 
+            out.println("<h1 class = 'Datoscara'> Tipo de Cara: "  +cara.majClass +"</h1>");
+            out.println("<h1 class = 'Datoscabello'> Tipo de Cabello: "  +cabello.majClass +"</h1>");
+            out.println("<h1 class = 'Datospiel'> Color de Piel: "  +piel.majClass +"</h1>");
+            out.println("<div class = 'DatosM'> ");
+            out.println("<table>");
+            out.println("<tr>");
+            out.println("<td>Rasgo</td>");
+            out.println("<td>Forma Derecha</td>");
+            out.println("<td>Forma Izquierda</td>");
+            out.println("<td>Inclinación Derecha</td>");
+            out.println("<td>Inclinación Izquierda</td>");
+            out.println("<td>Ceja Derecha</td>");
+            out.println("<td>Ceja Izquierda</td>");
+            out.println("</tr>");
+            out.println("<tr>");
+            out.println("<td>Datos Ojos</td>");
+            out.println("<td>"+ OformaD +"</td>");
+            out.println("<td>"+OformaI +"</td>");
+            out.println("<td>"+OinclD +"</td>");
+            out.println("<td>"+OinclI +"</td>");
+            out.println("<td>"+OcejaD +"</td>");
+            out.println("<td>"+OcejaI +"</td>");
+            out.println("</tr>");
+            out.println("</table>");
+            out.println("<table>");
+            out.println("<tr>");
+            out.println("<td>Rasgo</td>");
+            out.println("<td>Forma Pabellón Auricular</td>");
+            out.println("<td>Tubérculo de Darwin</td>");
+            out.println("<td>Implantación del lóbulo</td>");
+            out.println("</tr>");
+            out.println("<tr>");
+            out.println("<td>Datos Orejas</td>");
+            out.println("<td>"+formaPA +"</td>");
+            out.println("<td>"+tubDarwin +"</td>");
+            out.println("<td>"+implobulo +"</td>");
+            out.println("</tr>");
+            out.println("</table>");
+            out.println("<table>");
+            out.println("<tr>");
+            out.println("<td>Rasgo</td>");
+            out.println("<td>Raiz</td>");
+            out.println("<td>Dorso</td>");
+            out.println("<td>Punta</td>");
+            out.println("<td>Base</td>");
+            out.println("<td>Forma Orificios Nasales</td>");
+            out.println("</tr>");
+            out.println("<tr>");
+            out.println("<td>Datos Nariz</td>");
+            out.println("<td>"+raizN +"</td>");
+            out.println("<td>"+dorsoN +"</td>");
+            out.println("<td>"+puntaN +"</td>");
+            out.println("<td>"+baseN +"</td>");
+            out.println("<td>"+oriNasales  +"</td>");
+            out.println("</tr>");
+            out.println("</table>");
+            out.println("<table>");
+            out.println("<tr>");
+            out.println("<td>Rasgo</td>");
+            out.println("<td>Grosor Labios</td>");
+            out.println("<td>Eje Horizontal</td>");
+            out.println("<td>Surco Nasolabial</td>");
+            out.println("<td>Forma Comisuras</td>");
+            out.println("</tr>");
+            out.println("<tr>");
+            out.println("<td>Datos Boca</td>");
+            out.println("<td>"+grosLab  +"</td>");
+            out.println("<td>"+ejeHor +"</td>");
+            out.println("<td>"+surNaso  +"</td>");
+            out.println("<td>"+formaCom  +"</td>");
+            out.println("</tr>");
+            out.println("</table>");
+            out.println("<table>");
+            out.println("<tr>");
+            out.println("<td>Rasgo</td>");
+            out.println("<td>Contorno</td>");
+            out.println("<td>Pilosidad</td>");
+            out.println("</tr>");
+            out.println("<tr>");
+            out.println("<td>Datos Cara</td>");
+            out.println("<td>"+ contCara +"</td>");
+            out.println("<td>"+pil  +"</td>");
+            out.println("</tr>");
+            out.println("</table>");
+            out.println("<table>");
+            out.println("<tr>");
+            out.println("<td>Rasgo</td>");
+            out.println("<td>Forma</td>");
+            out.println("<td>Abundancia</td>");
+            out.println("<td>Inserciones</td>");
+            out.println("<td>Calvicie</td>");
+            out.println("<td>Pigmentación</td>");
+            out.println("</tr>");
+            out.println("<tr>");
+            out.println("<td>Datos Cabello</td>");
+            out.println("<td>"+formaCab  +"</td>");
+            out.println("<td>"+abun +"</td>");
+            out.println("<td>"+inser +"</td>");
+            out.println("<td>"+calvicie +"</td>");
+            out.println("<td>"+pigme +"</td>");
+            out.println("</tr>");
+            out.println("</table>");
+            out.println("<table>");
+            out.println("<tr>");
+            out.println("<td>Rasgo</td>");
+            out.println("<td>Pigmentación</td>");
+            out.println("</tr>");
+            out.println("<tr>");
+            out.println("<td>Datos Piel</td>");
+            out.println("<td>"+pigmenPiel  +"</td>");
+            out.println("</tr>");
+            out.println("</table>");
             out.println("</div>");
             
             //piel
@@ -329,8 +436,24 @@ public class valores extends HttpServlet {
             
             out.println("<div class = 'cabello'>");
             
+            if(cabet == "cabello grueso y liso"){
+            
+            out.println("<img class = 'cabellosM' src='cabello/"+cabet+".png'>");
+            
+            }
+            
+            else if(cabet == "cabello grueso y ondulado"){
+                
+            out.println("<img class = 'cabellosM' src='cabello/"+cabet+".png'>");
+                
+            }
+            
+            else{
+                
             out.println("<img class = 'cabellos' src='cabello/"+cabet+".png'>");
-
+            
+            }
+            
             out.println("</div>");
             
             
